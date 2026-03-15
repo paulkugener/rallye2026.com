@@ -85,12 +85,22 @@ nav a.active {
     color: #c8c8d0 !important;
   }
 
-  table {
-    background: rgba(255, 255, 255, 0.08);
+  article table {
+    background: rgba(255, 255, 255, 0.08) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
   }
 
-  table th {
-    background: rgba(255, 209, 102, 0.15);
+  article table th {
+    background: rgba(255, 209, 102, 0.15) !important;
+    color: #ffd166 !important;
+  }
+
+  article table td {
+    background: rgba(255, 255, 255, 0.05) !important;
+  }
+
+  article table tbody tr:hover {
+    background: rgba(255, 255, 255, 0.06) !important;
   }
 
   nav {
