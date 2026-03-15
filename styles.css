@@ -3,8 +3,8 @@
     radial-gradient(circle at 80% 30%, rgba(237, 78, 105, 0.14), transparent 55%),
     radial-gradient(circle at 40% 80%, rgba(0, 140, 255, 0.14), transparent 60%),
     #05021d;
-  --text: #e0e0e8;
-  --muted: rgba(224, 224, 232, 0.85);
+  --text: #c8c8d0;
+  --muted: rgba(200, 200, 208, 0.9);
   --accent: #ffd166;
   --accent-2: #ef476f;
   --font-heading: "Great Vibes", cursive;
@@ -191,6 +191,33 @@ article h3 {
   margin-top: 0;
   margin-bottom: 0.75rem;
   color: var(--accent);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+table th,
+table td {
+  padding: 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+table th {
+  background: rgba(255, 209, 102, 0.1);
+  color: var(--accent);
+  font-weight: 600;
+}
+
+table tbody tr:hover {
+  background: rgba(255, 255, 255, 0.03);
 }
 
 footer {
