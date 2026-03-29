@@ -13,9 +13,32 @@
 
 body {
   background: var(--background);
-  color: #c8c8d0;
+  color: #f5f5f5;
   min-height: 100vh;
   font-family: var(--font-body);
+}
+
+article,
+article h1,
+article h2,
+article h3,
+article p,
+article li,
+article table th,
+article table td,
+footer p,
+nav a {
+  color: #f5f5f5 !important;
+}
+
+table th,
+table td {
+  color: #f7f7f7 !important;
+}
+
+.copy-text,
+.copy-btn {
+  color: #ffffff !important;
 }
 
 * {
