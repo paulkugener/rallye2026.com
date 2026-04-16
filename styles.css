@@ -248,8 +248,8 @@ article img {
 
 .card img {
   max-width: 92%;
-  max-height: 8rem;
-  min-height: 5rem;
+  max-height: 11rem;
+  min-height: 7rem;
   object-fit: contain;
 }
 
