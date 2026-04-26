@@ -230,6 +230,8 @@ article {
   border: 1px solid rgba(255, 255, 255, 0.08);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   min-height: 10rem;
+  flex: 0 1 280px;
+  max-width: 280px;
 }
 
 .card picture {
@@ -260,6 +262,12 @@ article img {
     max-height: 12rem;
     max-width: 80vw;
   }
+}
+
+article hr {
+  border: none;
+  border-top: 2px solid #c9a84c;
+  margin: 1.5rem 0;
 }
 
 .copy-cell {
